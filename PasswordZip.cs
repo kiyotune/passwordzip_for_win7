@@ -23,7 +23,7 @@ namespace cockatiel.cage.net
 		//—p—á
 		private static void Usage()
 		{
-			Console.WriteLine("usage:\n  CreateZip <src1> <src2>... ");
+			Console.WriteLine("usage:\n  PasswordZip <output> <input_file/dir> <input_file/dir2>... ");
 			Environment.Exit(1);
 		}
 
